@@ -25,7 +25,7 @@
             font-size: 50px;
             color: rgb(88, 105, 199);
             font-weight: bolder;
-            margin: 8px 0px 3px 0px;
+            margin: 8px 0px -27px 0px;
         }
         .center-box{
             float: left;
