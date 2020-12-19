@@ -3,6 +3,7 @@
 	String pagefile=request.getParameter("page");
 	if (pagefile==null){pagefile="6PMmain";}
 %>
+<%-- 안녕하세요!! --%>
 <html>
 <head>
 <title>6P.M. Clock</title>
