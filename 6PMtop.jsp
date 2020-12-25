@@ -42,9 +42,8 @@
         }
 
         .logo {
-            font-size: 35px;
+            font-size: 20px;
             float: left;
-            font-weight: 900;
             color: rgb(88, 105, 199);
             margin-right: 20px;
         }
@@ -91,21 +90,21 @@
     <header>
         <div class="header-container">
             <div class="container">
-                <a href="./template.jsp?page=6PMmain"><div class="logo">6 P.M. Clock&nbsp;<img src="asdasd.png" alt="6pm" width="60"height="60"></div></a>
+                <a href="template.jsp?page=6PMmain"><div class="logo"><h1>6 P.M. Clock&nbsp;<img src="asdasd.png" alt="6pm" width="60" height="60"></h1></div></a>
                 <div class="select">
                     <nav>
                         <br>
                         <br>
                         <ul>
-                            <li><a href="./template.jsp?page=6PMnotice">공지사항</a></li>
+                            <li><a href="template.jsp?page=6PMnotice">공지사항</a></li>
                             <li>|</li>
-                            <li><a href="./template.jsp?page=6PMcommunity">커뮤니티</a></li>
+                            <li><a href="template.jsp?page=6PMcommunity" id="current">커뮤니티</a></li>
                             <li>|</li>
-                            <li><a href="./template.jsp?page=6PMinfo">학과정보</a></li>
+                            <li><a href="template.jsp?page=6PMinfo">학과정보</a></li>
                             <li>|</li>
-                            <li><a href="./template.jsp?page=6PMtotal">학과전적</a></li>
+                            <li><a href="template.jsp?page=6PMtotal">학과전적</a></li>
                             <li>|</li>
-                            <li><a href="./template.jsp?page=6PMrecruitment">경기모집</a></li>
+                            <li><a href="template.jsp?page=6PMrecruitment">경기모집</a></li>
                         </ul>
                     </nav>
                 </div>
