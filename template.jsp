@@ -3,7 +3,6 @@
 	String pagefile=request.getParameter("page");
 	if (pagefile==null){pagefile="6PMmain";}
 %>
-<%-- 안녕하세요!! --%>
 <html>
 <head>
 <title>6P.M. Clock</title>
@@ -25,11 +24,13 @@
 <body>
 <table id = "main">
 	<tr>
-		<td height="100%" colspan=5 align=left>
+		<td height="100%" colspan=6 align=left>
 			<jsp:include page="6PMtop.jsp"/>
 		</td>
 	</tr>
 	<tr>
+		<td width="14%">
+		</td>
 		<td colspan=2 align=right valign=top><br>
 			<jsp:include page='<%=pagefile+".jsp" %>'/>
 		</td>
@@ -42,12 +43,11 @@
 		</td>
 	</tr>
 	<tr>
-		<td width="100%" height="40" colspan="5">
+		<td width="100%" height="40" colspan="6">
 			<jsp:include page="6PMbottom.jsp"/>
 		</td>
 	</tr>
 </table>
 </body>
 </html>
-
 
